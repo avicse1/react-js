@@ -10,17 +10,17 @@ function App() {
         {
             title: "Bike Insurance",
             amount: 167.67,
-            date: new Date(2021, 2, 20),
+            date: new Date(2021, 4, 11),
         },
         {
             title: "Plane Insurance",
             amount: 500.98,
-            date: new Date(2021, 2, 20),
+            date: new Date(2021, 7, 17),
         },
         {
             title: "Train Insurance",
             amount: 478.23,
-            date: new Date(2021, 2, 20),
+            date: new Date(2021, 10, 28),
         },
     ];
     return (
