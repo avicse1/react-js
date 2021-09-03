@@ -1,5 +1,5 @@
 import Expenses from "./components/Expenses/Expenses";
-
+import NewExpense from "./components/NewExpense/NewExpense";
 //arrow function
 const App = () => {
     const expenses = [
@@ -26,7 +26,7 @@ const App = () => {
     ];
     return (
         <div>
-            <h2>Let's get stared!</h2>
+            <NewExpense />
             <Expenses items={expenses} />
         </div>
     );
