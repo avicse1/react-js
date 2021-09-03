@@ -2,6 +2,7 @@ import "./Expenses.css";
 import ExpenseItem from "./ExpenseItem";
 import Card from "../UI/Card";
 
+// Arrow function
 const Expenses = (pros) => {
     return (
         <Card className="expenses">
